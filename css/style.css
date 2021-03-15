@@ -1,0 +1,137 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans&display=swap');
+
+/* Variables for colors */
+:root{
+  --dark-pink: #BA4270;
+  --light-pink: #DA6D97;
+  --dark-blue: #36536B;
+  --light-blue: #6C8294;
+  --link-water-white: #FBFCFE;
+  --white: #FFFFFF;
+  --black: #1B262F;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  max-width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* Links */
+a{
+  text-decoration: none;
+}
+
+/* List items */
+li{
+  list-style: none;
+}
+
+/* Header 1 large text */
+.header-1-large{
+  font-family: 'DM Serif Display', serif;
+  font-size: 4.5rem;
+}
+
+/* Header 1 small text */
+.header-1-small{
+  font-family: 'DM Serif Display', serif;
+  font-size: 3.5rem;
+}
+
+/* Header 2 text */
+.header-2{
+  font-family: 'DM Serif Display', serif;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+/* Header 3 large text */
+.header-3-large{
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+/* Header 3 small text */
+.header-3-small{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.56rem;
+}
+
+/* Header 4 text */
+.header-4{
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* Primary button styling */
+.primary-button{
+  background-color: var(--dark-pink);
+  color: var(--link-water-white);
+  border-radius: 25px;
+  font-size: 0.938rem;
+  padding: 1rem 1.6rem;
+}
+
+/* Hero */
+.hero{
+  background-color: var(--link-water-white);
+  height: 95vh;
+  position: relative;
+}
+
+/* Container for circle pattern - places circle to the top right of the hero */
+.hero-pattern-circle-container{
+  position: absolute;
+  top: -50%;
+  right: -15%;
+}
+
+/* Header */
+.header{
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+}
+
+/* Header logo container */
+.header-logo-container{
+  margin-right: 4rem;
+}
+
+/* Header menu */
+.header-menu{
+  display: flex;
+}
+
+/* Header menu list items */
+.header-menu-li{
+  margin-right: 2.5rem;
+}
+
+/* Header menu links */
+.header-menu-link{
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+
+/* Header button container - Margin-left:auto pushes the button to the far right of the flex container */
+.header-button-container{
+  z-index: 2;
+  margin-left: auto;
+}
